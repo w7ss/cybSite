@@ -9,6 +9,8 @@
 .main{position:absolute; width:100%; top:0; right:0; bottom:0; overflow:hidden; background:url(../pic/snow.jpg) no-repeat center center; background-size:cover; background-color:rgba(0,0,0,.3); transition:width 1s ease-in-out;}
 .main .mask{position:absolute; top:0; left:0; bottom:0; right:0; background:rgba(0,0,0,.6); display:none;}
 .main .about_me{position:absolute; top:35px; left:15px;; font-size:20px; line-height:25px; color:rgba(255,255,255,.5); font-style:italic; font-weight:bold;}
+.main .resume{position:absolute; top:70px; left:15px;; font-size:20px; line-height:25px; color:rgba(255,255,255,.5); font-style:italic; font-weight:bold;}
+.main .resume a:hover{color:rgba(255,255,255,1);}
 .main .icon{position:absolute; width:20px; height:7px; top:20px; left:20px; background:rgba(255, 255, 255, 0.3); cursor:pointer;}
 .main .icon:after{content:""; position:absolute; display:block; width:0; height:0; border-left:10px solid rgba(255, 255, 255, 0.3); border-top:10px solid transparent; border-bottom:10px solid transparent; border-right:10px solid transparent; left:20px; top:-6.5px;}
 .main .icon:hover{background:rgba(255, 255, 255, 0.8);}
