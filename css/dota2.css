@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+.main{position:relative;}
+.main .video_wrapper{}
+video{width:100%; object-fit:contain;}
+.main .content{position:absolute; top:0; left:0; bottom:0; right:0;}
+.main .content .logo{display:block; float:left; margin-top:3%; margin-left:5%;}
+.main .content .top{float:right; line-height:40px; color:rgba(255,255,255,.5); margin-top:5%; margin-right:5%; width:40%; font-size:20px;}
+.main .content .top span{display:inline-block; cursor:pointer;}
+.main .content .top span:hover{color:rgba(255,255,102,0.8);}
+.main .content .top > span:last-child{float:right; font-size:15px;}
+.main .content .id{float:left; color:rgba(255,255,255,0.8); margin-top:10%; margin-left:-25%;}
+.main .content .id i{color:#fff;}
+.main .content h1{position:absolute; color:rgba(255,255,255,0.8); font-size:50px; left:-50%; top:25%; width:500px; height:100px; font-family:FZShuTi; animation:h1 3s linear 0.3s forwards;}
+@keyframes h1{
+		0%{transform:skewX(60deg);}
+		26.64%{left:35%; transform:skewX(80deg);}
+		40%{left:35%; transform:skewX(-80deg);}
+		43.3%{left:35%; transform:skewX(-80deg);}
+		66.6%{left:35%; transform:skewX(0);}
+		83.3%{left:35%; transform:skewX(0) scale(2,2)}
+		100%{left:35%; transform:skewX(0) scale(1,1)}
+	}
+
+
+.main .content ul{height:220px; float:left; width:80%; margin-left:10%; margin-top:200px;}
+.main .content ul a{display:inline-block; float:left; width:25%; margin-right:12.5%; color:#ffd943; transition:all 0.5s ease-in-out;}
+.main .content ul > a:last-child{margin-right:0;} 
+.main .content ul a li{width:100%;}
+.main .content ul li h3{height:60px; width:100%; font-size:24px; text-align:center; background:#8A0000; line-height:60px; font-weight:normal; letter-spacing:8px;}
+.main .content ul li figure{margin:0; padding:0; height:160px; width:100%; position:relative;}
+.main .content ul li figure img{width:100%}
+.main .content ul li figure .mask{position:absolute; top:0; bottom:0; left:0; right:0; background:rgba(0,0,0,.5);}
+
+footer{background:#000; margin-top:-3px; height:150px; font-size:20px; color:rgba(255,255,255,.8); padding:20px;}
+footer p{text-align:center;}
+footer .link{margin-top:50px; text-align:center;}
+footer .link > img{cursor:pointer;}
+footer .link > img:first-child{margin-right:30%;}
+
